@@ -2,13 +2,31 @@
 
 body {
     font-family: 'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    background-color: white
+}
 
+h1 {
+    background-color: black;
+    color: white;
+    text-align: center;
+}
+
+main {
+    text-align: center;
+    background-color: rgba(0, 0, 0, 0.144);
+    
 }
 
 table {
     width: 500px;
     border-collapse: collapse;
+    
 }
+
+.cadas {
+    background-color: rgba(133, 143, 143, 0.788);
+}
+
 
 caption {
     font-size: 1.3em;
@@ -19,12 +37,15 @@ caption {
 th, td {
     border: 1px solid black;
     padding: 8px;
+    
 }
 
-tr.destaque {
-    background-color: rgb(112, 151, 235);
+
+tr#destaque {
+    background-color: rgba(16, 104, 38, 0.986);
+    color: white;
 }
 
 col.cnome {
-    background-color: rgb(199, 118, 118);
+    background-color: #F2668B;
 }
