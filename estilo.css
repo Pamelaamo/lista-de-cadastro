@@ -49,3 +49,12 @@ tr#destaque {
 col.cnome {
     background-color: #F2668B;
 }
+
+footer {
+    background-color: black;
+    color: white;
+    text-align: center;
+    padding: 5px;
+    margin-top: 20px;
+    
+}
